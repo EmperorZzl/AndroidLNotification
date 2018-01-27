@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devstrongzhao.andrloid.l.notification.MainActivity">
+
+    <Button
+        android:id="@+id/send_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_notification" />
+
+    <Button
+        android:id="@+id/head_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="headNotification" />
+
+    <Button
+        android:id="@+id/collapsed_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="collapsedNotification" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="锁定屏幕通知" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/public_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公共" />
+
+        <RadioButton
+            android:id="@+id/private_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="私有" />
+
+        <RadioButton
+            android:id="@+id/secret_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="秘密" />
+    </RadioGroup>
+
+</LinearLayout>

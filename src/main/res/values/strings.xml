@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndrloidLNotification</string>
+    <string name="send_notification">发送普通通知</string>
+</resources>
