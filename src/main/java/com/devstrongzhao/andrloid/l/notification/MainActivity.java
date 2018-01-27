@@ -201,6 +201,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 .setContentTitle("Headsup Notification")
                 .setContentText("I am a Headsup notification.");
 
+
         if (getSDK() >= Build.VERSION_CODES.LOLLIPOP) {
             builder.setCategory(Notification.CATEGORY_MESSAGE);
         }
